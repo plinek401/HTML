@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta chatself = "utf-8">
+        <title>Media Query</title>
+        <!--TO LINK A MEDIA SHEET:
+            <link rel = "stylesheet" href = "main.css" media="print">
+-->
+        <style>
+            .box{
+                background-color: rgba(200,200,200,.5);
+                width: 95%;
+                margin: 0 auto;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            
+            /* This is media query where we look at variables such as min-width and such to adjust our website to when the viewport is a different size.*/
+            @media (min-width: 450px) and (max-width: 640px){
+                p{
+                    color: red;
+                }
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <div class="box">
+            <p>ASFASKFASASKGHASGAKS JLAKGJAKSGAKSGJ AKSJFKAS KD ASKJ KAJSKAJSRKASJFKJS KHKASHRKAS FKASH FKASH FKHAH SFH ASFHKAJ SFKAJSF JKASF JHASKFH KASFJASJ FKJASKFJKAS JFKASF JKASFJ KAS.</p>
+        </div>
+    </body>
+
+</html>

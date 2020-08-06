@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Hanging Box</title>
+        <meta charset="utf-8" name = "viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .hinge{
+                -webkit-animation-duration: 2s;
+                animation-duration: 2s;
+                -webkit-animation-name: hinge;
+                animation-name: hinge;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                left: 150px;
+                background-color: aqua;
+                text-align: center;
+            }
+            
+            @keyframes hinge {
+                0% {
+                    -webkit-transform-origin: top left;
+                    transform-origin: top left;
+                    -webkit-animation-timing-function: ease-in-out;
+                    animation-timing-function: ease-in-out;
+                }
+                20%, 60%{
+                    -webkit-transform: rotate3d(0,0,1, 80deg);
+                    transform: rotate3d(0,0,1, 80deg);
+                    -webkit-transform-origin: top left;
+                    transform-origin: top left;
+                    -webkit-animation-timing-function: ease-in-out;
+                    animation-timing-function: ease-in-out;
+                }
+                40%, 80%{
+                    -webkit-transform: rotate3d(0,0,1,60deg);
+                    transform: rotate3d(0,0,1,30deg);
+                    -webkit-transform-origin: top left;
+                    transform-origin: top left;
+                    -webkit-animation-timing-function: ease-in-out;
+                    animation-timing-function: ease-in-out;
+                    opacity: 1;
+                }
+                100% {
+                    -webkit-transform: translate3d(0, 700px, 0);
+                    transform: translate3d(0,700px,0);
+                    opacity: 0;
+                }
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <div class="hinge"></div>
+        
+    </body>
+
+</html>

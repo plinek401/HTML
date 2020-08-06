@@ -1,0 +1,58 @@
+body{
+    background-color:#666;  
+}
+
+#get-in-touch-container{
+    background-color: red;
+    width: 600px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom:1%;
+    height: 98%;
+}
+
+#x {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px; 
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#x a{
+    text-decoration: none;
+    color: white;
+}
+
+#form-container{
+    position: relative;
+    background-color: red;
+    margin: auto;
+    width: 400px;
+}
+
+input, textarea, select{
+    width: 100%;
+    margin: 15px auto;
+    padding: 10px
+}
+
+input[type="submit"]{
+    border-radius: 100px;
+}
+
+#submit-container{
+    width: 50%;
+    margin: auto;
+}
+
+div>h1{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}

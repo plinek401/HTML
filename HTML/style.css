@@ -1,0 +1,57 @@
+table{
+    border-collapse: collapse;
+}
+
+.css-table td,th {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    text-align: center;
+}
+
+.css-table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#intro-container{
+    background: aquamarine;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#headshot{
+    max-width:100%;
+    max-height:100%;
+}
+
+#col-33{
+    width: 33%;
+    border: 2px black solid;
+    text-align: center;   
+}
+
+#col-66{
+    width: 66%;
+    border: 2px black solid;
+    text-align: center;
+    float: right;
+}
+
+#intro-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;/*All the elements in this row, as everything gets smaller take content and put it below.*/
+    align-items: center;
+}
+
+#intro-row::after{
+    display: table;
+    clear: both;
+    content: "";
+}

@@ -1,0 +1,21 @@
+/*This adjusts the carousel to be centered on the screen and only 70% wide so that the iamges fit*/
+#carouselExampleIndicators{
+    width: 70%;
+    margin: auto;
+}
+
+#back-color{
+    background-color: rgba(0,0,0);
+}
+
+.dropdown{
+    margin: 100px;
+}
+/*I added this to make the hovered drop down elements highlight*/
+.dropdown .dropdown-menu li:hover{
+    background-color:aquamarine;
+}
+
+.progress{
+    margin: 10px;
+}

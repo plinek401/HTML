@@ -1,0 +1,109 @@
+<!doctype HTML>
+<html lang = "en">
+
+    <head>
+        <title>Portfolio - Pawel Linek</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        
+        <a href="#">Logo HERE</a>
+        
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Personal Projects</li>
+            <li>Contact</li>
+            
+            <h1>My Page</h1>
+            <h2>Yup!!</h2>
+            
+            <img src="headshot.jpg" alt = "headshot of Me">
+            
+            <p>Lorem ipsum <b> dolor</b> sit amet.... etc..</p>
+            
+            <table class = "css-table">
+                <th>Morning</th>
+                <th>Evenings</th>
+                <th>Nights</th>
+                <tr>
+                    <td>Wake Up</td>
+                    <td>Wake Up Again</td>
+                    <td>Finally</td>
+                </tr>
+                <tr>
+                    <td>Something</td>
+                    <td>Something Else</td>
+                    <td>On with my day</td>
+                </tr>
+                <tr>
+                    <td>Hi</td>
+                    <td>Hey</td>
+                    <td>Lets go</td>
+                </tr>
+            </table>
+        </ul>
+        
+        <p>No Copy Rights</p>
+    
+        <!--TABLE FORM SO THAT ITS ALL NICE AND PRETTY INDENT WISE. -->
+        <form> 
+            <h3>This is a form within a table</h3>
+            <table>
+                <tr>
+                    <td><label for ="FullName">Full Name</label></td>
+                    <td><input id="FullName" placeholder = "Full Name" type="text" name="name" required ></td>
+                </tr>
+                <tr>
+                    <td> <label for ="Email">Email</label></td>
+                    <td><input id="FullName" placeholder = "Full Name" type="text" name="name" required ></td>
+                </tr>
+                <tr>
+                    <td><label for ="Password">Password</label></td>
+                    <td><input id="Password" placeholder = "Password" type="password" name="password" required ></td>
+                </tr>
+            </table>
+            
+            <!--THIS IS A GENERIC TABLE -->
+            <!--for is what is referenced back at the server. -->
+            <label for ="FullName">Full Name</label>
+            <input id="FullName" placeholder = "Full Name" type="text" name="name" required ><br>
+            <br>
+            
+            <label for ="Email">Email</label>
+            <input id="Email" placeholder = "Email" type="email" name="email" required ><br>
+            <br>
+            
+            <label for ="Password">Password</label>
+            <input id="Password" placeholder = "Password" type="password" name="password" required ><br>
+            <br>
+            
+            <label for="message"> Tell me Everything</label>
+            <textarea cols="50" rows = "10"></textarea><br>
+            <br>
+            
+            <select name="country">
+                <option value="" selected disabled hidden>Choose here</option>
+                <optgroup label = "Europe">
+                    <option value="UK">UK</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Germany">France</option>
+                </optgroup>
+                <optgroup label = "NA">
+                    <option value="USA">UK</option>
+                    <option value="Canada">Germany</option>
+                    <option value="Mexico">France</option>
+            </select>
+            
+            <input type="submit" value = "Save">
+            <br>
+            <br>
+            
+        
+        </form>
+    </body>
+    
+</html>
